@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Add custom font family */
+    
+  }
+  
+  @layer components {
+    /* Custom styles */
+    .text-custom {
+      font-family: 'Custom Font', sans-serif;
+    }
+  }
