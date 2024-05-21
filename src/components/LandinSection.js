@@ -6,7 +6,7 @@ const LandingSection = () => {
   
 
   return (
-    <div style={{ background: 'white',height: '70vh' }} className="py-12">
+    <div style={{ background: 'white',height: '70vh' }} className="py-16">
     <div style={{ background: 'linear-gradient(to bottom, #FFFFFF 15%, #FF3F01 200%)',height: '50vh' }} className="py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
@@ -19,13 +19,13 @@ const LandingSection = () => {
         </div>
         <div className="flex justify-center mb-7">
           <div className="flex items-center">
-            <button className="bg-black text-white py-2 px-4 rounded mr-7">Browse Auctions</button>
+            <button className="bg-black text-white py-2 px-4 rounded mr-12">Browse Auctions</button>
             <p className="text-white w-full max-w-md">
               Streamline your buying and selling process with our secure, efficient, and globally accessible marketplace.
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center -mx-4">
+        <div className="flex flex-wrap justify-center mx-5">
           {categories.map((category, index) => (
             <div key={index} className="w-1/2 sm:w-1/3 md:w-1/5 px-4 mb-8 flex flex-col items-center">
               <div className="bg-white rounded-full shadow-md overflow-hidden" style={{ width: '120px', height: '120px', marginTop: '-10px', zIndex: '1'}}>

@@ -61,3 +61,6 @@ export const categories = [
     { name: 'Industrial Goods', image: 'industrial-goods.jpg' },
     { name: 'Heavy Machinery', image: 'heavy-machinery.jpg' },
   ];
+
+
+  

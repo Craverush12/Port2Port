@@ -11,6 +11,8 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import HotelIcon from '@mui/icons-material/Hotel';
 import RepeatIcon from '@mui/icons-material/Repeat';
 import Typography from '@mui/material/Typography';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 
 export default function CustomizedTimeline() {
   return (
@@ -32,10 +34,14 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Eat
-          </Typography>
-          <Typography>Because you need strength</Typography>
+          <Card sx={{ maxWidth: 250 }}>
+            <CardContent>
+              <Typography variant="h6" component="span">
+                Eat
+              </Typography>
+              <Typography>Because you need strength</Typography>
+            </CardContent>
+          </Card>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -54,10 +60,14 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Code
-          </Typography>
-          <Typography>Because it&apos;s awesome!</Typography>
+          <Card sx={{ maxWidth: 250 }}>
+            <CardContent>
+              <Typography variant="h6" component="span">
+                Code
+              </Typography>
+              <Typography>Because it&apos;s awesome!</Typography>
+            </CardContent>
+          </Card>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -69,10 +79,14 @@ export default function CustomizedTimeline() {
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Sleep
-          </Typography>
-          <Typography>Because you need rest</Typography>
+          <Card sx={{ maxWidth: 250 }}>
+            <CardContent>
+              <Typography variant="h6" component="span">
+                Sleep
+              </Typography>
+              <Typography>Because you need rest</Typography>
+            </CardContent>
+          </Card>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -84,10 +98,14 @@ export default function CustomizedTimeline() {
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span">
-            Repeat
-          </Typography>
-          <Typography>Because this is the life you love!</Typography>
+          <Card sx={{ maxWidth: 250 }}>
+            <CardContent>
+              <Typography variant="h6" component="span">
+                Repeat
+              </Typography>
+              <Typography>Because this is the life you love!</Typography>
+            </CardContent>
+          </Card>
         </TimelineContent>
       </TimelineItem>
     </Timeline>

@@ -16,6 +16,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms'),
-    nextui() // Call nextui() as a function
+
+    nextui(), // Call nextui() as a function
   ]
 };
